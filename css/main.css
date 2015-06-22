@@ -1,0 +1,178 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1{
+	font-family: 'Bentham', serif;
+	color: #fff;
+	font-size: 60px;
+	max-width: 60%;
+	line-height: 1.2;
+	text-align: center;
+  padding: 20px;
+	margin: 0 auto 20 px;
+}
+
+h1 span{
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+}
+
+
+}
+body{
+	font-family: "PT-Serif", Georgia, serif ;
+	font-size: 18px;
+	color: #6f6f6f;
+}
+
+.logo{
+	font-family: 'Bentham', Georgia, serif;
+	font-size: 30px;
+	color: #fff;
+	padding: 20px;
+	border: 1px solid #fff;
+	width:230px;
+	margin: 0 auto;
+  margin-bottom: 46px;
+	text-align: center;
+}
+
+header{
+	padding-top: 78px;
+	width:100%;
+	height: 600px;
+	background: url(../img/background.jpg) center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+
+h2.subhead{
+	font-family: 'PT Serif', serif;
+	color: #fff;
+	font-size: 20px;
+	font-style: italic;
+	margin: 30 px 0;
+}
+
+.date_location{
+  font-family: Bentham;
+  font-size: 14px;
+  text-align: center; 
+  padding-bottom: 40px;
+}
+
+
+main{
+	width: 640px;
+	margin: 0 auto;
+	padding-top: 95px;
+}
+
+main h2{
+	font-family: 'Bentham', serif;
+	font-size: 42px;
+	letter-spacing: 2px;
+	color: #444444;
+	text-align: center; 
+	max-width: 600px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+
+header h1{
+	font-size: 60px;
+	font-family: 'Bentham', Georgia, serif;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header h2{
+	font-size: 20px;
+	font-family: PT PT-Serif, serif;
+	font-style: italic;
+	text-align: center;
+  margin-top: 27px;
+}
+
+p{
+	font-family: 'PT-Serif', serif;
+	font-size: 18px;
+	color: #6f6f6f;
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+p span{
+  color:#eb8c8a
+ }
+
+ 
+.sharing{
+  display: table;
+  width: 650px;
+  border: 1px solid #888;
+  margin:auto;
+  margin-top: 75px;
+}
+
+.sharing ul li{
+  float: left;
+  text-align: center;
+  color: #6f6f6f;    
+  width: 25%;
+  border-left: 1px solid #888;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display:inline;
+}
+
+.sharing ul li:first-child{
+  border-left: none; 
+}
+
+.sharing ul li a{
+  color: #6f6f6f;  
+  width:100%;
+  padding: 15px;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;  
+}
+.sharing ul li a:hover{
+  color: #fff;
+  background-color: #e3514e;  
+}
+
+.copyright{
+  width: 100%;
+  height: 80px;
+  margin-top: 60px;
+  background-color: #424242; 
+}
+
+.copyright p{
+  position: relative;
+  top: 50%;
+  width: 640px;  
+  margin: 0 auto;  
+  text-align: center;
+  font-family: 'PT Serif', serif;  
+  font-size: 14px;  
+  line-height: 1.3;  
+  color: #fff;
+  transform: translateY(-50%);
+}
