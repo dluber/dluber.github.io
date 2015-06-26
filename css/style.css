@@ -1,0 +1,15 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	font-size: 16px;
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	color: #939092;
+	background: url(../img/background.jpg);
+}
+
+h1, h3, button{
+		font-family: 'Teko', sans-serif, Arial, Helvetica
+		color:#fff;
+}
