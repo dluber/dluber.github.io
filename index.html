@@ -1,87 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+	<title>dannyluber</title>
 	<meta charset="UTF-8">
-	<title>SAGE: The Coming Soon Page</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:300,300italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Teko:300,400' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:300,400' rel='stylesheet' type='text/css'>	
+	<link href='http://fonts.googleapis.com/css?family=Teko:300,400' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">	
+	<link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 	<header>
-		<div class="logo">
-			<img src="img/" alt="">
-		</div>
-		<nav>
-			<img src="img/" alt="">
-			<div class="navigation">
+		<section class="top_bar">
+			<div class="container">
+				<div class="logo">
+
+				</div>
+				<nav class="navigation">
+					<ul>
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Get in Touch</a></li>				
+					</ul>
+				</nav>
+			</div>	
+		</section>		
+		<section class="hero container">
+			<nav>
 				<ul>
-					<li>Works
-						<ul>
-							<li><a href="#">Digital</a></li>
-							<li><a href="#">Editorial</a></li>
-							<li><a href="#">Creative Direction</a></li>
-							<li><a href="#">Mobile</a></li>
-						</ul>
-					</li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Journal</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Contact</a></li>
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
 				</ul>
-				<ul class="social_media">
-					<li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-				</ul>
-			</div>
-		</nav>
+			</nav>
+			<div class="title">
+				<h1 class="hero_title">We build websites and apps that people love</h1>
+				<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+				<a href="#projects" class="explore">Explore More</a>
+			</div>			
+		</section>		
 	</header>
+	<main id="projects">
+		<section class="work clearfix">
+			<h2>My Projects</h2>
+			<article>	
+						<figure>
+							<a href="#"><img src="img/projects/tesla.jpg" alt="Tesla"></a>					
+						</figure>
+						<h3>Model S</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue nunc, bibendum nec neque ut, aliquet ultrices ipsum.</p>				
 
-	<main>
-		<header>
-			<h1>Coming Soon</h1>
-			<h2 class="lead">We create engaging digital products and services for 
-organisations who want to do something new online.</h2>
-		</header>
-		<p>Go pop-top lifetime any wealth seasoned outside boast. Lifetime good are only. Enjoy extra families hot cause secret splash. Challenge generous crystals simulated colossal extra if mothers so. Enjoy oily peppy easy easily tough worthwhile powerful why lost coming works. That warranty clinically locked-in powerful waxy this.</p>	
-		
-		<h3>Stay Connected</h3>	
-		<p>Join us on our social networks for all the latest updates, product/service announcements and many more</p>
-		<form action="#">
-			<input type="email" placeholder="Type your email to subscribe"><button>Subscribe</button>
-		</form>
+			</article>			
+			<article>			
+						<figure>
+							<a href="#"><img src="img/projects/curiosity.jpg" alt="Curiosity"></a>					
+						</figure>	
+						<h3>Curiosity</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue nunc, bibendum nec neque ut, aliquet ultrices ipsum.</p>							
+			</article>
+			<article>
+						<figure>
+							<a href="#"><img src="img/projects/stuhrling.jpg" alt="Sturhling"></a>					
+						</figure>
+						<h3>Sturhling</h3>
+						<p>Our self-initiated project.
+		Infinity ∞ is an abstract concept describing something without any limit and is relevant in a number of fields</p>				
+
+			</article>
+			<article>
+						<figure>
+							<a href="#"><img src="img/projects/penguin.jpg" alt="Penguin Books"></a>					
+						</figure>
+						<h3>Penguin Books</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue nunc, bibendum nec neque ut, aliquet ultrices ipsum.</p>				
+			</article>
+			<div class="show_more clearfix">
+				<a href="#">Show More Projects</a>	
+			</div>
+		</section>
+		<section class="cta">
+			<h2>Showcasing your work has never been more fun</h2>
+			<p>Discover elegant solution for your online portfolio. Fast, reliable, affordable...</p>
+			<a href="#" class="button">Get In Touch</a>
+		</section>
+		<section class="contact">
+			<div class="container">
+				<h2>Stay Connected</h2>
+				<p>Join us on our social networks for all the latest updates, product/service announcements and many more</p>
+
+				<ul class="social">
+					<li><a href="#"><i class="fa fa-behance"></i>Behance</a></li>
+					<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+					<li><a href="#"><i class="fa fa-pinterest-p"></i>Pinterest</a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i>LinkedIn</a></li>				
+				</ul>
+			</div>	
+		</section>
+
 	</main>
-	<aside>
-		<ul>
-			<li>
-				<a href="#" target="_blank"><h4><i class="fa fa-twitter"></i> Twitter</h4></a>
-				<article>
-					<a href="#" target="_blank">Checkout our new multipurpose PSD Theme SAGE. It’s awesome!</a>
-					<time datetime="09-13-2015">1 Hour Ago</time>
-				</article>
-				<article>
-					<a href="#" target="_blank">Checkout our new multipurpose PSD Theme SAGE. It’s awesome!</a>
-					<time datetime="09-13-2015">2 Hour Ago</time>
-				</article>		
-			</li>
-			<li>
-				<a href="#" target="_blank"><h4><i class="fa fa-facebook"></i> Facebook</h4></a>
-			</li>
-		</ul>		
-	</aside>
-	<footer>
-		<p class="copyright">&copy; 2015 SAGE Multipurpose Theme. Made by <a href="http://idealui.com/" target="_blank">idealUI</a></p>
-		<ul>
-			<li><a href="#">Terms of Use</a></li>
-			<li><a href="#">Privacy Policy</a></li>
-		</ul>
+	<footer class="copyright container">
+		<p>Copyright &copy; 2015 SAGE Agency Worldwide. All rights reserved.</p>
 	</footer>
-
 </body>
+
 </html>
+
+
+
+
+
+
+
+

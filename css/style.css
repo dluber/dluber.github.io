@@ -5,11 +5,42 @@
 body{
 	font-size: 16px;
 	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
-	color: #939092;
-	background: url(../img/background.jpg);
+	color: #adaaac;
+	background: url(../img/background.jpg) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
+.clearfix after{
+	display: table;
+	content: '';
+	clear:both;
+}
 h1, h3, button{
-		font-family: 'Teko', sans-serif, Arial, Helvetica
-		color:#fff;
+	font-family: 'Teko', sans-serif, Arial, Helvetica
+	color: #fff;
+}
+
+.navigation{
+	dislay: none;
+}
+
+.container{
+	max-width: 1170px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+}
+
+nav{
+	float:right;
+}
+
+main{
+	width: 50%;
 }
