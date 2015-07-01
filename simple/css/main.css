@@ -98,8 +98,7 @@ button{
 }
 
 header{
-	height: 100vh;
-	min-height:600px;
+	height: 1076px;
 	background: #7f7b7e url(../img/background1.jpg) no-repeat center center;	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -221,22 +220,6 @@ button .fa-play{
 .work article:nth-child(2n+1){
 	margin-right: 1%;
 }
-.project_thumb{
-	position: relative;
-}
-
-.project_thumb figcaption{
-	position: absolute;
-	z-index: 10;
-	background-color: #f63c3c;
-	border: 20px solid #352d2f;
-}
-
-.thumbnail{
-	position: absolute;
-	z-index: 1;
-}
-
 .work article img{
 	width: 100%;
 	height: auto;
@@ -277,7 +260,6 @@ button .fa-play{
 }
 
 .cta p{
-	font-size: 16;
 	opacity: 0.7;
 }
 
