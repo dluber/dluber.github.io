@@ -72,9 +72,10 @@ button{
 
 .hero{
 	position: relative;	
-	height: 90vh;
+	height: 100vh;
 	color: #fff;
 	text-align: center;
+	padding-top: 71px;
 }
 
 .hero p{
@@ -105,7 +106,7 @@ button{
 header{
 	height: 100vh;
 	min-height: 600px;
-	background: #7f7b7e url(../img/background1.jpg) no-repeat center center;	
+	background: #7f7b7e url(../img/background1.jpg) no-repeat center center fixed;	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -121,6 +122,13 @@ header nav a:hover{
 	margin: 0 auto;
 }
 
+.img-rounded{
+	display: block;
+	margin: 30px auto;
+	width: 200px;
+	height: auto;
+	border-radius: 200px;
+}
 
 nav ul li{
 	display: inline-block;
@@ -146,9 +154,19 @@ nav ul li.active a{
 }
 
 .top_bar{
-	height: 71px;
+	position: fixed;
+	height: 70px;
 	width: 100%;
 	border-bottom: 1px solid rgba(255,255,255, 0.1);
+	z-index: 100;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;		
+}
+
+.top_bar.dark_bg{
+	background-color: #000;
 }
 
 .logo{
@@ -233,10 +251,10 @@ button .fa-play{
 	top: 50%;
 	left: 50%;
 	height: 450px;
-	-webkit-transform: translate(-50%, -60%);  
-	-moz-transform: translate(-50%, -60%);  
-	-o-transform: translate(-50%, -60%);  
-	transform: translate(-50%, -60%);  
+	-webkit-transform: translate(-50%, -50%);  
+	-moz-transform: translate(-50%, -50%);  
+	-o-transform: translate(-50%, -50%);  
+	transform: translate(-50%, -50%);  
 }
 
 .hero nav ul{
@@ -367,23 +385,28 @@ button .fa-play{
 	border-bottom: 4px solid #f63c3c;
 }
 
-.cta{
+.cta, .about{
 	background: #f63c3c;
 	color: #fff;
 	text-align: center;
 	padding: 55px 0;
 }
 
-.cta h2{
+.cta h2, .about h2{
 	color: #fff;	
 }
 
-.cta p{
+.cta p, .about p{
 	font-size: 16px;
 	opacity: 0.7;
 }
 
- .cta a.button{
+.about p{
+	width: 60%;
+	margin: 0 auto;
+}
+
+ .cta a.button, .about a.button{
 	color: #685157;
 	margin-top: 22px;
  }
@@ -393,6 +416,13 @@ button .fa-play{
 	color: #fff;
  }
  
+.bg2{
+	background: url(http://i.huffpost.com/gen/2112016/images/o-BILL-MURRAY-CADDYSHACK-facebook.jpg) center center no-repeat fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+
  .contact{
 	padding: 64px 0 50px;
 	background: #fafafa;
