@@ -1,0 +1,17 @@
+<script>
+  var context;
+  function init()
+  {
+    context= myCanvas.getContext('2d');
+    context.beginPath();
+    context.fillStyle="#0000ff";
+    // Draws a circle of radius 20 at the coordinates 100,100 on the canvas
+    context.arc(100,100,20,0,Math.PI*2,true); context.closePath();
+    context.fill();
+  }
+</script>
+
+<body onLoad="init();">
+  <canvas id="myCanvas" width="300" height="300" >
+  </canvas>
+</body>
