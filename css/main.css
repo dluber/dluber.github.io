@@ -69,10 +69,32 @@ h4{
   font-family: 'Comfortaa', arial, sans-serif;
   font-size: 28px;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 175px;
   padding-bottom: 100px;
 }
 
+@media screen and (max-width: 1024px){
 
+}
 
+@media screen and (max-width: 768px){
+.eyes{
+  display: none;
+}
+
+.eyewhite{
+  display: none;
+}
+
+.eyeblack{
+  display: none;
+}
+
+h3{
+  display:none;
+}
+
+@media screen and (max-width:480px){
+ 
+}
 
