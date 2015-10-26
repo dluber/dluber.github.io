@@ -10,8 +10,6 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-html {background-color: #222;}
-
 .text-muted {
     color: #777;
 }
@@ -70,7 +68,6 @@ header h3{
 .img-responsive{
     margin: 0 auto;
 }
-
 
 .mac {
     width: 70%;
