@@ -28,6 +28,8 @@ p.large {
 }
 
 iframe{
+    width: 100%;
+    margin: 0 auto;
 }
 
 a,
@@ -865,6 +867,7 @@ ul.social-buttons li a i {
 }
 
 
+
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
@@ -949,7 +952,38 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
+.portfolio-modal .modal-content .tridant ul{
+    list-style: none;
+    float: left;
+    overflow: auto;
+    display: inline-block;
+}
 
+.portfolio-modal .modal-content .tridant li{
+    display: inline;
+    width: 33%;
+    height: auto;
+}
+
+.portfolio-modal .modal-content .tridant li p{
+    margin-top: 0px;
+    display: block;
+}
+
+.portfolio-modal .modal-content .tridant li img{
+    width: 70%;
+    height: auto;
+    display: block;
+}
+
+.portfolio-modal .modal-content .fullwidth{
+    display: block;
+    width: 100%;
+}
+
+.requirements li{
+    text-align: left;
+}
 .portfolio-modal .modal-content .quadrant{
     display: block;
 }
