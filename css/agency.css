@@ -7,19 +7,19 @@
 body {
     height: 100%;
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.text-muted {
+/*.text-muted {
     color: #777;
-}
+}*/
 
 .text-primary {
     color: #FA4D43;
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.75;
 }
 
@@ -58,9 +58,11 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 200;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 250;
 }
+
+
 
 header h3{
     text-transform: none;
@@ -90,7 +92,7 @@ header h3{
 .btn-primary {
     border-color: #FA4D43;
     text-transform: uppercase;
-    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #FA4D43;
@@ -141,7 +143,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #FA4D43;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -226,8 +228,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -325,7 +327,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -336,8 +338,9 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
         font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 88px;
-        font-weight: 600;
+        font-weight: 375;
         line-height: 75px;
+        font-weight: 300px;
     }
 }
 
@@ -348,16 +351,18 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 400;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    color: white;
 }
 
 
@@ -371,6 +376,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    font-weight: bolder;
 }
 
 #portfolio .portfolio-item {
@@ -430,14 +436,17 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
-    text-transform: none;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+    font-weight: 300;
 }
 
 #portfolio * {
@@ -606,10 +615,12 @@ section h3.section-subheading {
 .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit;
+    font-weight:bolder;
 }
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
+    font-weight:bolder;
 }
 
 .timeline .timeline-body>p,
@@ -697,6 +708,7 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image h4 {
         margin-top: 40px;
+        font-weight:bold;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
@@ -824,23 +836,26 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    font-weight: 500;
 } 
 
 footer{
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    font-weight: 500;
 }
 
 ul.social-buttons {
@@ -927,9 +942,9 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    margin: 12px 0 30px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
     font-style: italic;
 }
 
@@ -1014,13 +1029,12 @@ ul.social-buttons li a:active {
     width: 100%;
     height: 100%;
 }
-
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
-    width: 75px;
-    height: 75px;
+/*    width: 75px;
+*/  height: 75px;
     background-color: transparent;
     cursor: pointer;
 }
