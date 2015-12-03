@@ -63,6 +63,9 @@ h6 {
 }
 
 
+h1{
+    60px;
+}
 
 header h3{
     text-transform: none;
@@ -906,6 +909,10 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.portfolio-modal h1{
+    font-size: 60px;
 }
 
 .portfolio-modal .modal-content h2 {
