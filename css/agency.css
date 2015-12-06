@@ -948,6 +948,10 @@ ul.social-buttons li a:active {
     margin: 10px 10px 10px 5px;
 }
 
+.portfolio-modal .modal-content .gcs li h3{
+    margin-bottom: 15px;
+}
+
 .portfolio-modal .modal-content p.item-intro {
     margin: 12px 0 30px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
