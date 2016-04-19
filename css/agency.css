@@ -445,6 +445,11 @@ margin-top:0;
     margin: 0;
 }
 
+.numbered{
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+}
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
