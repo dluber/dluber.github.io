@@ -445,6 +445,11 @@ margin-top:0;
     margin: 0;
 }
 
+#portfolio .portfolio-item .portfolio-link .portfolio-hover div{
+    padding-bottom: 50px;
+}
+
+
 .numbered{
     text-align: left;
     width: 50%;
@@ -464,6 +469,8 @@ margin-top:0;
     font-size: 22px;
     font-weight: bolder;
 }
+
+
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
