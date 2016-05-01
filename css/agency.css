@@ -448,7 +448,9 @@ margin-top:0;
 #portfolio .portfolio-item .portfolio-link .portfolio-hover div{
     padding-bottom: 50px;
 }
-
+.left li {
+    text-align: left;
+}
 
 .numbered{
     text-align: left;
@@ -955,7 +957,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
-
+    text-align: left;
 }
 
 .portfolio-modal .modal-content .gcs{
