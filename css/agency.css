@@ -910,6 +910,10 @@ ul.social-buttons li a {
     transition: all .3s;
 }
 
+.xtensio{
+    width: 75%;
+}
+
 ul.social-buttons li a i {
     color: white;
 }
