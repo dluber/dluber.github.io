@@ -10,9 +10,9 @@ body {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-/*.text-muted {
-    color: #777;
-}*/
+.text-muted {
+    text-align: center;
+}
 
 .text-primary {
     color: #FA4D43;
@@ -995,6 +995,7 @@ ul.social-buttons li a:active {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-style: italic;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
